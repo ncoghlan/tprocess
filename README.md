@@ -1,4 +1,4 @@
-# tprocess
+# tstrprocess
 
 Experimental library exploring potential interfaces for using Python 3.14's
 t-strings to provide more ergonomic subprocess invocation in Python using

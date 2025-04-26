@@ -1,5 +1,5 @@
 [project]
-name = "tprocess"
+name = "tstrprocess"
 version = "0.1.0.dev0"
 description = "t-string based subprocess invocation"
 authors = [
