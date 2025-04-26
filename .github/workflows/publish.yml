@@ -23,7 +23,7 @@ jobs:
 
       - uses: pdm-project/setup-pdm@v4
         with:
-          python-version: 3.12
+          python-version: 3.14
           cache: true
 
       - name: Publish distribution package to PyPI
