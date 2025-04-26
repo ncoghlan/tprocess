@@ -23,7 +23,8 @@ jobs:
 
       - uses: pdm-project/setup-pdm@v4
         with:
-          python-version: 3.14.0-alpha.7
+          # Python 3.14 pdm/httpx compat issue: https://github.com/encode/httpx/pull/3556
+          python-version: 3.13
           cache: true
 
       - name: Publish distribution package to PyPI

@@ -1,15 +1,16 @@
 [project]
 name = "tstrprocess"
-version = "0.1.0.dev2"
+version = "0.1.0.dev3"
 description = "t-string based subprocess invocation"
 authors = [
     {name = "Alyssa Coghlan", email = "ncoghlan@gmail.com"},
     {name = "Nick Humrich", email = "nick@humrich.us"},
 ]
 dependencies = ["plumbum>=1.9.0"]
-# Actual minimum is 3.14.0b1, but accept the last alpha for initial setup
+# Actual minimum is 3.14.0b1, but use Python 3.13 for initial PyPI setup
 # PEP 750 implementation PR: https://github.com/python/cpython/pull/132662
-requires-python = ">=3.14.0a7"
+# Python 3.14 pdm/httpx compat issue: https://github.com/encode/httpx/pull/3556
+requires-python = ">=3.13"
 readme = "README.md"
 license = {text = "MIT"}
 
