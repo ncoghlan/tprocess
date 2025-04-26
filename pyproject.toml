@@ -1,0 +1,21 @@
+[project]
+name = "tprocess"
+version = "0.1.0.dev0"
+description = "t-string based subprocess invocation"
+authors = [
+    {name = "Alyssa Coghlan", email = "ncoghlan@gmail.com"},
+    {name = "Nick Humrich", email = "nick@humrich.us"},
+]
+dependencies = ["plumbum>=1.9.0"]
+# Actual minimum is 3.14.0b1, but accept the last alpha for initial setup
+# PEP 750 implementation PR: https://github.com/python/cpython/pull/132662
+requires-python = ">=3.14.0a7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
