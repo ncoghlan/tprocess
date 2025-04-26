@@ -1,6 +1,6 @@
 [project]
 name = "tstrprocess"
-version = "0.1.0.dev1"
+version = "0.1.0.dev2"
 description = "t-string based subprocess invocation"
 authors = [
     {name = "Alyssa Coghlan", email = "ncoghlan@gmail.com"},
